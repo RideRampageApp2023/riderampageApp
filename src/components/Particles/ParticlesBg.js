@@ -43,9 +43,9 @@ const ParticlesBg = () => {
           },
           links: {
             color: "#ff7f00",
-            distance: 150,
+            distance: 200,
             enable: true,
-            opacity: 0.6,
+            opacity: 0.03,
             width: 1,
           },
           move: {
