@@ -1,0 +1,85 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  /* Debe ser mayor que el z-index del sidebar */
+  display: none;
+}
+
+.overlay.active {
+  display: block;
+}
+
+.content {
+  transition: margin-left 0.3s;
+  margin-left: 0;
+  /* Inicialmente no hay desplazamiento */
+}
+
+.app-content {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  transition: margin-left 0.3s;
+  margin-left: 0;
+  display: flex;
+}
+
+.shifted {
+  margin-left: 240px;
+  /* Ancho del sidebar */
+}
+
+.formTitle {
+  text-align: center !important;
+  text-transform: uppercase !important;
+  color: #FF4400 !important;
+  font-weight: bold !important;
+}
+
+.standarTextField .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: #FF4400 !important;
+
+}
+
+.standarTextField .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: black !important;
+}
+
+.standarTextField .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #FF4400;
+  /* Color del borde cuando el TextField está enfocado */
+}
+
+.standarTextField label.MuiInputLabel-root {
+  color: #171717 !important;
+  /* Cambia el color del texto del label */
+}
+
+.standarTextField label.MuiInputLabel-root:hover {
+  color: #FF4400 !important;
+  /* Cambia el color del texto del label */
+}
+
+.divider {
+  background-color: #1717178b !important;
+}
+
+.subTitles {
+  font-weight: bold !important;
+}
+
+.sendButton {
+  background-color: #FF4400 !important;
+  font-weight: bold !important;
+  width: 50%;
+}
+
+.sendButton:hover {
+  background-color: #FF7F00 !important;
+}
+

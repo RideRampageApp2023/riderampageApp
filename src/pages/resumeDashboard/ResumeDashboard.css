@@ -1,0 +1,42 @@
+.tableResumeContainer {
+  max-width: 50%;
+  margin: 0 auto;
+  border-right: 1px solid #1a1a1a8f;
+  border-bottom: 1px solid #1a1a1a8f;
+  border-left: 1px solid #1a1a1a8f;
+  border-radius: 0px !important;
+  position: relative;
+  /* Añade esta línea */
+}
+
+.tableAndButtonContainer {
+  flex: 1;
+  /* Permite que este contenedor ocupe el espacio disponible */
+}
+
+.resumeDashboardTableContainer {
+  padding: 10px 15px 0 15px !important;
+  padding-bottom: 30px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.seeMoreButton {
+  padding: 10px 30px 30px 30px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 300px;
+  margin-top: auto;
+}
+
+@media (max-width: 700px) {
+  .tableResumeContainer {
+    max-width: 100%;
+  }
+
+  .seeMoreButton {
+    width: calc(100% - 60px);
+    /* Ajusta según tus necesidades */
+  }
+}

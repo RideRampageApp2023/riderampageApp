@@ -1,0 +1,135 @@
+.appbarContainer {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.text {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.titles {
+  font-weight: bold !important;
+  font-size: 1rem !important;
+}
+
+.titles:hover {
+  color: white !important;
+}
+
+.appbarContainer {
+  flex-grow: 1 !important;
+}
+
+.appbar {
+  background-color: #1a1a1a;
+}
+
+.logo {
+  width: 60px;
+}
+
+.titleAppbar {
+  flex-grow: 1 !important;
+  text-align: center !important;
+  font-weight: bold !important;
+}
+
+.titleAppbar:hover {
+  color: #ff7f00;
+}
+
+.headerTable {
+  background-color: #ff7f00;
+}
+
+.icon {
+  margin-left: 16px !important;
+}
+
+.dashboardContainer {
+  width: 100%;
+  background-color: #1a1a1a;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.dashboardTableRow {
+  border-bottom: 1px solid #ff7f00 !important;
+  background-color: #ffffff;
+}
+
+.dashboardTableRow:hover {
+  font-weight: bold;
+}
+
+.dashboardTableContainer {
+  padding: 10px 15px 0 15px !important;
+  padding-bottom: 30px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.rootTournamentNotFound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  /* Ajusta según sea necesario */
+}
+
+.paperTournamentNotFound {
+  padding: 8px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.imageTournamentNotFound {
+  margin-top: 16px;
+  max-width: 50%;
+}
+
+.messageContainer {
+  background-color: #1a1a1a;
+}
+
+.textTournamentNotFound {
+  color: #ff7f00 !important;
+  font-size: 3rem !important;
+}
+
+.textTournamentNotFound:hover {
+  color: white !important;
+}
+
+.tableTitleDashboard {
+  font-weight: bold !important;
+  padding: 0 !important;
+}
+
+.css-1ndpvdd-MuiTableCell-root {
+  border-bottom: 1px solid black !important;
+}
+
+.tableTitleContainerDashboard {
+  border: 1px solid black !important;
+}
+
+.headerTableDCTTitle {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+@media (max-width: 600px) {
+  .titleAppbar {
+    font-size: 1.5rem !important;
+  }
+
+  .text {
+    font-size: 1.5rem;
+  }
+
+  .textTournamentNotFound {
+    font-size: 2rem !important;
+  }
+}

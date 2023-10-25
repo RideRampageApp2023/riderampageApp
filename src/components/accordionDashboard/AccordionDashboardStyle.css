@@ -1,0 +1,48 @@
+.accordionContainer {
+  padding: 20px 0 10px 0 !important;
+}
+
+.accordionHeader {
+  background-color: #ff7f00 !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  color: white !important;
+  font-weight: bold !important;
+  border-radius: 3px !important;
+}
+
+.accordionHeader:hover {
+  color: #1a1a1a !important;
+}
+
+.accordionHeader {
+  background-color: #ff7f00 !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+.expandIcon {
+  color: white !important;
+}
+
+.expandIcon:hover {
+  color: #1a1a1a !important;
+}
+
+.customInputLabelDisabled {
+  color: #ff7f00 !important;
+  font-weight: bold;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input.Mui-disabled {
+  opacity: 1 !important;
+  -webkit-text-fill-color: #1a1a1a !important;
+}
+
+.MuiInputBase-input.Mui-disabled {
+  opacity: 1 !important;
+  -webkit-text-fill-color: #1a1a1a !important;
+  color: #1a1a1a !important;
+}
+
+.-webkit-text-fill-color {
+  color: #1a1a1a !important;
+}

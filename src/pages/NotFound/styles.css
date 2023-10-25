@@ -1,0 +1,20 @@
+.number {
+  color: #ff7f00 !important;
+}
+
+.number:hover {
+  color: #1A1A1A !important;
+}
+
+.return {
+  padding-top: 15px;
+  color: #ff7f00 !important;
+  font-weight: bold !important;
+
+}
+
+.return:hover {
+  padding-top: 15px;
+  color: #ce7012 !important;
+  font-weight: bold !important;
+}

@@ -1,0 +1,41 @@
+.sliderBackground {
+  background-color: #494949 !important;
+}
+
+.swiper {
+  display: flex !important;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto !important;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.mySwiper {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .swiper-slide img {
+    max-width: 200%;
+  }
+
+  img {
+    width: 25vw;
+  }
+}

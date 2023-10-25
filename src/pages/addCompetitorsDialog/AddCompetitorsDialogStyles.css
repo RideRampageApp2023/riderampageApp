@@ -1,0 +1,25 @@
+.addCompetitorsDialogTitle {
+  text-align: center;
+  background-color: #ff7f00;
+  text-transform: uppercase;
+  color: white;
+}
+
+.addCompetitorsDialogTitle:hover {
+  color: black;
+}
+
+.addCompetitorsDialogButtonsContainer {
+  justify-content: center !important;
+  align-items: center;
+}
+
+.addCompetitorsDialogButtons {
+  background-color: #ff7f00 !important;
+  color: white !important;
+}
+
+.addCompetitorsDialogButtons:hover {
+  background-color: #D06800 !important;
+  color: black !important;
+}

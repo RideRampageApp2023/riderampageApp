@@ -1,0 +1,29 @@
+.navbarContainer {
+  background-color: #1a1a1a !important;
+}
+
+.navbarTitle {
+  display: flex !important;
+  text-align: center !important;
+  font-size: 2rem !important;
+  color: white !important;
+}
+
+.navbarTitle:hover {
+  color: #ff7f00 !important;
+}
+
+.sidebarIcon {
+  color: white !important;
+}
+
+.sidebarIcon:hover {
+  color: #ff7f00 !important;
+}
+
+@media (max-width: 600px) {
+  .navbarTitle {
+    text-align: left !important;
+    font-size: 1.5rem !important;
+  }
+}
