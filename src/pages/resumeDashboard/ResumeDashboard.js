@@ -321,7 +321,8 @@ function ResumeDashboard() {
           </Button>
         </div>
 
-        <ImageSlider />
+        {/* Slider */}
+        {/* <ImageSlider /> */}
         <Footer />
       </div>
     </>
