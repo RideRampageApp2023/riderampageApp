@@ -446,7 +446,8 @@ export default function Dashboard() {
         </Button>
       </div>
 
-      <ImageSlider />
+      {/* Slider */}
+      {/* <ImageSlider /> */}
       <Footer />
     </div>
   );

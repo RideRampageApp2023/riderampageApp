@@ -3,12 +3,12 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC0T5gEsuWefV9aTUYlWkBa0mlhxtO2npo",
-  authDomain: "riderampageapp.firebaseapp.com",
-  projectId: "riderampageapp",
-  storageBucket: "riderampageapp.appspot.com",
-  messagingSenderId: "859844458108",
-  appId: "1:859844458108:web:c1b475a1aad397e0c6fbf9",
+  apiKey: "AIzaSyAS-1iywI8MdH3C2XSox79z82KKV8zsnaQ",
+  authDomain: "riderampageapp-1b577.firebaseapp.com",
+  projectId: "riderampageapp-1b577",
+  storageBucket: "riderampageapp-1b577.appspot.com",
+  messagingSenderId: "136215376894",
+  appId: "1:136215376894:web:4b9b0326a5eb973d3406af"
 };
 
 export const app = initializeApp(firebaseConfig);

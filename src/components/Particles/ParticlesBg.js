@@ -29,7 +29,7 @@ const ParticlesBg = () => {
           },
           modes: {
             push: {
-              quantity: 6,
+              quantity: 3,
             },
             repulse: {
               distance: 30,
@@ -45,7 +45,7 @@ const ParticlesBg = () => {
             color: "#ff7f00",
             distance: 150,
             enable: true,
-            opacity: 0.05,
+            opacity: 0.6,
             width: 1,
           },
           move: {
